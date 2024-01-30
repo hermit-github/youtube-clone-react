@@ -4,8 +4,7 @@ import Videos from './Videos'
 
 const MainContent = () => {
   return (
-    <section className="">
-        Body
+    <section className="p-4">
         <Tags/>
         <Videos/>
     </section>
