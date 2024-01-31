@@ -5,8 +5,6 @@ const WatchVideo = () => {
   const [params] = useSearchParams();
   const videoId = params.get("v");
 
-  console.log(videoId);
-
   return (
     <div className="p-2">
       <iframe
